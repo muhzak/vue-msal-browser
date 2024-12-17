@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "@azure/msal-browser": "2",
-    "vue": "^2.5.2"
+    "vue": "^2.6.12"
   }
 }
