@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es2020",
+    "target": "es5",
     "strict": true,
-    "module": "es2020",
+    "module": "es2015",
     "moduleResolution": "node",
-    "lib": ["es2020", "DOM", "es2020.promise"],
+    "lib": ["ES5", "ES6", "DOM"],
     "rootDir": "./src",
     "outDir": "./dist",
     "declaration": true
