@@ -1,6 +1,6 @@
 {
   "name": "vue-msal-browser",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Vue plugin to authenticate with the msal-browser library",
   "main": "dist/msalPlugin.js",
   "types": "dist/msalPlugin.d.ts",
@@ -35,7 +35,7 @@
     "url": "git+https://github.com/ahermant/vue-msal-browser.git"
   },
   "dependencies": {
-    "@azure/msal-browser": "^2.33.0",
+    "@azure/msal-browser": "^2.32.2",
     "vue": "^2.6.12"
   }
 }
