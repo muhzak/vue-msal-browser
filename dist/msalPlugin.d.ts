@@ -18,8 +18,8 @@ export default class msalPlugin extends msal.PublicClientApplication {
     constructor(options: ExtendedConfiguration);
     callMSGraph(endpoint: string, accessToken: string): Promise<Response | void>;
     getSilentToken(account: msal.AccountInfo, scopes?: string[]): Promise<msal.AuthenticationResult | void>;
-    authenticate(): Promise<msal.AccountInfo[] | msal.AuthenticationResult | undefined>;
-    authenticateRedirect(): Promise<msal.AccountInfo[] | undefined>;
+    authenticate(): Promise<msal.AccountInfo[] | msal.AuthenticationResult>;
+    authenticateRedirect(): Promise<msal.AccountInfo[]>;
     authenticatePopup(): Promise<msal.AuthenticationResult>;
 }
 export { msalInstance, ExtendedConfiguration, ExtendedBrowserAuthOptions };
